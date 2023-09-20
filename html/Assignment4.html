@@ -1,0 +1,70 @@
+<html>
+    <head>
+      <style>
+        .d1{
+            color: white; 
+            background-color: green;
+             padding: 8px 15px; 
+            border: 1px solid green;
+        }
+        .d1:hover{
+            padding: 15px 22px;
+        }
+
+        .d2{
+            color: white;
+            border: 1px solid green;
+            background-color: green;
+            padding: 8px 15px;
+            position: absolute;
+        }
+        .d2:active{
+            box-shadow: 5px 10px 15px gray;
+            position: relative;
+            top: 8px;
+            left: 8px;
+        }
+        .d3{
+            color: white; 
+            background-color: green;
+            padding: 8px 15px; 
+            border: 1px solid green;
+            margin-right: 40px;
+            width: 70px;
+        }
+        .d3:hover{
+            /* padding-left: 35px;
+            padding-right: 30px; */
+          
+              padding: 8px 25px;
+              
+            
+        }
+      </style>
+    </head>
+    <body>
+        <p style="font-weight: bold;">4h: Pagination</p>
+        <div>
+        <button>Back</button> 
+          <a href="hash" style="color: rgb(140, 22, 140);">1</a>
+          <a href="hash" style="color: rgb(140, 22, 140);">2</a> 
+          <a href="hash" style="color: rgb(140, 22, 140);">3</a> 
+          <a href="hash" style="color: rgb(140, 22, 140);">4</a>
+          <a href="hash" style="color: rgb(140, 22, 140);">5</a>
+         <button>Next</button>
+        </div>
+
+         <p style="font-weight: bold;">4i: Stretch</p>
+         <button class="d1">Stretch</button>
+
+         <p style="font-weight: bold;">4j: 3D click</p>
+         <button class="d2">Shadow</button>
+    </br></br>
+         <p style="font-weight: bold;">4k: Margin and padding together </p>
+         <div style="display: flex; align-items: center; height: 150px; width: 1000px;">
+         <div><button class="d3">One</button></div>
+         <div><button class="d3">Two</button></div>
+         <div><button class="d3">Three</button></div>
+        </div>
+        </body>
+    </html>
